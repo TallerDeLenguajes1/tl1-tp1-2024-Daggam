@@ -38,3 +38,7 @@ Para más információn sobre los archivos git, visitar su [Documentación](http
 
 **.gitignore** es un archivo de texto que especifica que rutas/archivos van a ser ignorados por git. No serán tomados en cuenta los cambios que se realicen en los archivos listados.
 
+## El contenido del puntero. Resolución del punto 2.3.g
+El puntero almacena la dirección de memoria de la variable a la cual apunta, entonces es lógico pensar que sea lo mismo que la direccion de memoria de la variable.
+
+Luego el programa nos imprime lo que sería la dirección de memoria del puntero, que es el espacio donde se almacena la dirección de memoria de la variable que esta apuntando, por lo que no es igual a los anteriores.
